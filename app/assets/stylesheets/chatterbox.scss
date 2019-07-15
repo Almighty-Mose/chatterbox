@@ -1,5 +1,5 @@
-$primary: hsl(125, 100%, 50%);
-
+$primary: #00C3FF;
+$secondary: #0081AF;
 .avatar {
   max-height: 30px;
   border-radius: 15px;
@@ -14,4 +14,17 @@ $primary: hsl(125, 100%, 50%);
   & + .room-nav-link {
     border-top: 0 none;
   }
+}
+
+.chat {
+  border: 1px solid $secondary;
+  background: lighten($secondary, 45%);
+  height: 50vh;
+  border-radius: 5px 5px 0 0;
+  overflow-y: auto;
+}
+
+.chat-input {
+  border-top: 0 none;
+  border-radius: 0 0 5px 5px;
 }
