@@ -15,7 +15,7 @@ class RoomsController < ApplicationController
   def create
     @room = Room.new permitted_parameters
 
-    if room.save
+    if @room.save
       flash[:success] = "Room #{@room.name} was created successfully"
       redirect_to rooms_path
     else
