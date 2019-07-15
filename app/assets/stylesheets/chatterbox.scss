@@ -1,4 +1,4 @@
-$primary: #56e862;
+$primary: hsl(125, 100%, 50%);
 
 .avatar {
   max-height: 30px;
@@ -8,8 +8,8 @@ $primary: #56e862;
 }
 
 .room-nav-link {
-  border: 1px solid lighten($primary, 40%);
-  background: lighten($primary, 45%);
+  border: 1px solid lighten($primary, 20%);
+  background: lighten($primary, 35%);
 
   & + .room-nav-link {
     border-top: 0 none;
